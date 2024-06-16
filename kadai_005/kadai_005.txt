@@ -1,0 +1,17 @@
+PS C:\Users\nsdef\Desktop> cd git_challenge
+PS C:\Users\nsdef\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/nsdef/Desktop/git_challenge/.git/
+PS C:\Users\nsdef\Desktop\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\nsdef\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\nsdef\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) ae5fcbb] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\nsdef\Desktop\git_challenge> echo "こんにちは、世界!" >> hello_world.txt
+PS C:\Users\nsdef\Desktop\git_challenge> git add hello_world.txt
+PS C:\Users\nsdef\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main 29c90df] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\nsdef\Desktop\git_challenge> git log --oneline
+29c90df (HEAD -> main) 日本語訳を追記
+ae5fcbb hello_world.txtを追加
